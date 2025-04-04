@@ -1,0 +1,55 @@
+/*DOCUMENTO*/
+* {margin: 0px;
+  padding: 0px;}
+
+h3 { color: rgb(245, 245, 245);
+    font-size: 2.3em;
+    text-shadow: 2px 2px 2px black;
+    padding-top: 170px;}
+
+
+.container {width: 80%;
+           min-height: 1px;          
+           display: flex;
+           flex-direction: column;
+           justify-content: space-between;
+           align-items: stretch;}
+
+.items {background-color: rgb(226, 116, 43);
+       width: 100%;       
+       height: 290px;
+       text-align: center;
+       background-image: url(https://picsum.photos/seed/picsum/200/300);
+       background-size: 100% 100%;}
+
+.tres{align-self: flex-start;}
+
+/*MEDIA QUERIES*/
+
+/*BREAKPOINT 1280*/
+
+@media only screen and (min-width: 768px) {
+
+       .container {flex-direction: row;
+                  flex-wrap: wrap;}
+
+       .items {width: 50%;
+               margin-bottom: 16px; }
+      
+}
+
+/*BREAKPOINT 1280*/
+
+@media only screen and (min-width: 1280px) {
+
+  h3{padding-top: 80px;
+     font-size: 1.3em;}
+
+  .container {width: 80%;;
+             margin: auto}
+
+  .items {width: 24%;
+          height: 140px;
+          }
+ 
+}

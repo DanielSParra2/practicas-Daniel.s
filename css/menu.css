@@ -1,0 +1,64 @@
+/*DOCUMENTO*/
+
+*{margin: 0;
+ padding: 0;}
+
+ /*tipografia*/
+ @font-face {
+    font-family: 'Ananda';
+    src: url('fonts/Ananda.woff2') format('woff2'),
+        url('fonts/Ananda.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+ .cabecera { font-family: Ananda;
+            background: rgb(84, 198, 232);
+            padding-top: 8px;
+            min-height: 1px;}
+
+ .bar {width: 100%;
+       min-height: 1px;}
+
+ .logo {color: rgb(1, 1, 1);
+        width: 40px;
+        font-size: 2em;
+        display: block;
+        margin: auto; 
+        padding-bottom: ;}
+
+.container { display: flex;
+            width: 100%;
+            flex-flow: row wrap;}
+
+.items {width: 50%;
+        text-align: center;
+        color: black;
+        background: whitesmoke;
+        padding: 8px 0px;}
+
+.container a:first-child {display: none;}
+
+/*breakpoint 600px*/
+
+@media only screen and (min-width: 600px){
+
+
+    .items {width: 25%;}
+    .logo {font-size: 3em;}
+}
+/*BREAKPOINT 992*/
+@media only screen and (min-width: 992px){
+
+
+    .items {width: 20%;}
+    .logo {font-size: 3em;}
+    .container{width: 80%;
+               margin: auto;
+               position: relative;
+               top: 15px;}
+    .container a:first-child {display: block;
+                              }
+}

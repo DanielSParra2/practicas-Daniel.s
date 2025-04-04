@@ -1,0 +1,23 @@
+/*DOCUMENTO.CSS*/
+*{margin: 0px;
+  padding: 0px;
+  }
+
+  body{font-family: "Roboto", sans-serif;}
+
+  h1{font-family: "Big Shoulders Stencil", sans-serif;
+      text-align: center;}
+
+      .cabecera {margin-bottom: 32px;
+                }
+
+    .tablas {background-color: rgb(236, 113, 113);
+            min-height: 1px;
+            padding: 16px 0px;
+            margin-bottom: 32px;}
+    div.tablas {background-color: rgb(159, 118, 230);
+               margin-bottom: 80px;}
+
+    .pie {background-color: blue;}
+
+.tablas table {margin: auto;}

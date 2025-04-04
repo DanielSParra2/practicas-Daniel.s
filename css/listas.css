@@ -1,0 +1,33 @@
+/*Documento CSS*/
+
+*{ margin: 0;}
+
+/*encabezados*/
+
+body {font-family: "Montserrat", serif;}
+
+h1 {text-align: center;
+    background-color: darkkhaki;
+    color: #090000;
+    font-family: "Montserrat", serif;}
+
+h2 {padding: 8px 16px;}
+
+/*LAYOUT*/
+.cabecera {background-color: brown;
+            padding: 16px 0px 16px 0px; }
+
+.listas, .contenido {padding: 24px 0px;
+        width: 70%;
+        margin: 0px auto;     } 
+
+         .atencion {background-color: aquamarine;}
+
+         .listas ol {border: 2px solid red;}
+
+         .contenido p {line-height: 140%;
+                        padding: 8px 0px 16px 0px;
+                    font-size: 16px;}
+         .pie span {text-align: center;
+                    background-color: aqua;
+                    font-size: 16px;}
